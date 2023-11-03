@@ -1,0 +1,32 @@
+$primary-color: rgba(67, 76, 204, 1);
+
+.containermain {
+  width: 100%;
+  height: auto;
+  padding: 582px;
+  .container1 {
+    .viderer {
+      width: 92px;
+      height: 24px;
+    }
+    .logo {
+      width: 48px;
+      height: 48px;
+      border: 1px solid $primary-color;
+      opacity: 32%;
+      display: flex;
+      gap: 2px;
+    }
+  }
+  .container2 {
+   display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  }
+}
